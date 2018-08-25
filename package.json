@@ -4,7 +4,10 @@
   "description": "A Vue.js project",
   "author": "alonzathompson <thompson0005@gmail.com>",
   "private": true,
+  "homepage": "https://alonzathompson.me/songtracker",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
