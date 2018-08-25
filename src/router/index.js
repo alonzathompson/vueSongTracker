@@ -13,7 +13,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/https://alonzathompson.github.io/vueSongTracker/',
       name: 'root',
       component: HelloWorld
     },
