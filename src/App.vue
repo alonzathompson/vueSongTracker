@@ -2,7 +2,7 @@
   <div id="app">
     <v-app>
       <page-header />
-      <main>
+      <main id="background">
         <v-container fluid>
           <router-view />
         </v-container>
@@ -29,6 +29,11 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#background {
+  background: url('./assets/vueBackground2.jpg') no-repeat !important;
+  background-size: cover;
 }
 
 .danger-alert {

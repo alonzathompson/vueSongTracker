@@ -39,4 +39,8 @@ li {
 a {
   color: #42b983;
 }
+
+.hello h1{
+  color: white;
+}
 </style>
