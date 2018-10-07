@@ -14,7 +14,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Vue Song Tracker'
+      msg: 'Song Tracker'
     }
   }
 }
@@ -42,5 +42,6 @@ a {
 
 .hello h1{
   color: white;
+  text-shadow: 0px 1px 16px rgba(0,0,0,0.9);
 }
 </style>

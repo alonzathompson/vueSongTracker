@@ -32,7 +32,7 @@
 }
 
 #background {
-  background: url('./assets/vueBackground2.jpg') no-repeat !important;
+  background: url('./assets/vueBackground2.jpg') no-repeat;
   background-size: cover;
 }
 
